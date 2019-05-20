@@ -1,4 +1,5 @@
 import pdb
+import numpy as np
 
 f = open("20_newsgroup_tokenized_multisense_docs_1000_test.txt","r")
 g = open("20_newsgroup_tokenized_multisense_docs_1000_train.txt","r")

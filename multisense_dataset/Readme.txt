@@ -6,6 +6,6 @@ In 20newsgroup folder :
 20newsgroup_words.txt - file belongs to top 1000 words which are multisense in our corpus
 
 
-In 20newsgroup folder :
+In reuters folder :
 reuters_tokenized_multisense_docs_250.txt : file belongs to multisense annotated train and test set corpus
 reuters_polysemy_words.txt - file belongs to top 1000 words which are multisense in our corpus
