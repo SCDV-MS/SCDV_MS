@@ -1,4 +1,4 @@
-# Text Classification with Sparse Composite Document Vectors
+# Word Polysemy Aware Document Vector Estimation
 
 
 ## Introduction
@@ -8,6 +8,7 @@
 
 ## Testing
 There are 2 folders named 20news and Reuters which contains code related to multi-class classification on 20Newsgroup dataset and multi-label classification on Reuters dataset.
+
 #### 20Newsgroup
 Change directory to 20news for experimenting on 20Newsgroup dataset and create train and test tsv files as follows:
 ```sh
@@ -79,7 +80,6 @@ $ python SCDV.py 300 100 sjm
 ```
 Use these scores to interpolate with the language model scores with interpolation parameter 0.5.
 
-
 ## Requirements
 Minimum requirements:
   -  Python 2.7+
@@ -88,7 +88,8 @@ Minimum requirements:
   -  Pandas
   -  Gensim
 
-
+## References
+[1] Mekala, Dheeraj, Vivek Gupta, Bhargavi Paranjape, and Harish Karnick. "SCDV: Sparse Composite Document Vectors using soft clustering over distributional representations." In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, pp. 659-669. 2017
 
     Note: You neednot download 20Newsgroup or Reuters-21578 dataset. All datasets are present in their respective directories.
 
