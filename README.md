@@ -88,26 +88,9 @@ Minimum requirements:
   -  Pandas
   -  Gensim
 
-For theory and explanation of SCDV, please visit https://dheeraj7596.github.io/SDV/.
+
 
     Note: You neednot download 20Newsgroup or Reuters-21578 dataset. All datasets are present in their respective directories.
 
 [//]: # (We used SGMl parser for parsing Reuters-21578 dataset from  https://gist.github.com/herrfz/7967781)
 
-## Citation
-[1] SCDV Paper:
-```
-@article{mekala2016scdv,
-  title={SCDV: Sparse Composite Document Vectors using soft clustering over distributional representations},
-  author={Mekala, Dheeraj and Gupta, Vivek and Paranjape, Bhargavi and Karnick, Harish},
-  journal={arXiv preprint arXiv:1612.06778},
-  year={2016}
-}
-@inproceedings{mekala2017scdv,
-  title={SCDV: Sparse Composite Document Vectors using soft clustering over distributional representations},
-  author={Mekala, Dheeraj and Gupta, Vivek and Paranjape, Bhargavi and Karnick, Harish},
-  booktitle={Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
-  pages={659--669},
-  year={2017}
-}
-```
